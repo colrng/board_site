@@ -28,3 +28,5 @@ sql이 설정이 안되어있으면 실행해도 웹사이트가 생기지 않�
 ![index 화면](https://github.com/user-attachments/assets/6d34520d-2b89-4510-a9ab-c9b9fe68b0c1)
 
 
+![index_1](https://github.com/user-attachments/assets/02e62893-0dc1-49f2-aa89-7023248312c7)
+
