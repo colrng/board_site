@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시글 수정</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>게시글 수정</h1>
+        <form action="/update/{{ post.id }}" method="POST">
+            <input type="text" name="title" value="{{ post.title }}" required><br>
+            <textarea name="content" required>{{ post.content }}</textarea><br>
+            <button type="submit">수정</button>
+        </form>
+        <button onclick="goBack()" class="back-button">뒤로가기</button>
+    </div>
+</body>
+</html>
